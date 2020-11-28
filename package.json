@@ -1,7 +1,8 @@
 {
-  "name": "unity-bolt-cli",
+  "name": "boltinfo",
+  "bin": "./index.js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Unity Bolt CLI Command",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
