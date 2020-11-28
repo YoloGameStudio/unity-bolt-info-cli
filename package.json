@@ -1,6 +1,8 @@
 {
-  "name": "boltinfo",
-  "bin": "./index.js",
+  "name": "@yologamestudio/boltinfo",
+  "bin": {
+    "boltinfo": "index.js"
+  },
   "version": "1.0.0",
   "description": "Unity Bolt CLI Command",
   "main": "index.js",
@@ -8,6 +10,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "YoloStudio",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoloGameStudio/unity-bolt-info-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YoloGameStudio/unity-bolt-info-cli/issues"
+  },
+  "homepage": "https://github.com/YoloGameStudio/unity-bolt-info-cli#readme"
 }
