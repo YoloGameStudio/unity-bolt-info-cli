@@ -1,17 +1,33 @@
 # Unity Bolt Info
-```
-USAGE
-  boltinfo /path/to/asset/file [OPTIONS]
 
-DESCRIPTION:
-  Show the information of a Bolt Asset
+### Installation
+
+Step 1. [Install NodeJS latest version here](https://nodejs.org/en/download/)
+
+Step 2. Open your Terminal
+
+```
+npm install -g unity-bolt-info-cli
+```
+
+### Usage
+```
+boltinfo /path/to/asset/file [OPTIONS]
+```
+
+### Description
+Show the information of a Bolt Asset
   
-OPTIONS
-  -d --directory  Target directory for searching the asset dependencies.
-                  [Default] The current directory of the asset file.
-  -v --version    Show the Bolt Info version
+
+### Options
+```
+-d --directory  Target directory for searching the asset dependencies.
+              [Default] The current directory of the asset file.
+-v --version    Show the Bolt Info version
+```
   
-EXAMPLES
+### Examples
+```
 $ boltinfo FilterItems.asset
 
 {
