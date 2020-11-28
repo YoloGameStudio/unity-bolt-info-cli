@@ -7,7 +7,7 @@ Step 1. [Install NodeJS latest version here](https://nodejs.org/en/download/)
 Step 2. Open your Terminal
 
 ```
-npm install -g unity-bolt-info-cli
+npm install -g @yologamestudio/boltinfo
 ```
 
 ### Usage
