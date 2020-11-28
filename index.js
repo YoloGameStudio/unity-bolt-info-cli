@@ -60,7 +60,6 @@ switch(option) {
 }
 
 function showInfo(directory, assetFilePath) {
-  console.log(directory, assetFilePath);
   // Check if directory exists
   if (!fs.existsSync(directory)) {
     console.log(`Directory ${directory} doesn't exist`);
