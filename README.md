@@ -1,6 +1,7 @@
 # Unity Bolt Info
 ```
-Usage: boltinfo /path/to/asset/file [OPTIONS]
+USAGE
+  boltinfo /path/to/asset/file [OPTIONS]
 
 DESCRIPTION:
   Show the information of a Bolt Asset
